@@ -13,7 +13,7 @@ def addApp():
          widget.destroy() 
      
     filename = filedialog.askopenfilename(initialdir="/", title="Select File",
-    filetypes= (("applications","*.app"),("all files","*.*")))
+    filetypes = (("applications","*.app"),("all files","*.*")))
     apps.append(filename)
     print(filename)
     for app in apps:  

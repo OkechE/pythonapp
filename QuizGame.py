@@ -65,5 +65,5 @@ print ("You got " + str(score) + " questions correct!")
 if score == 4:
     print("You got a perfect score, great job!")
 else:
-    print("Thank you for playin my quiz!")
+    print("Thank you for playing my quiz!")
 

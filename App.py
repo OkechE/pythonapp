@@ -7,7 +7,9 @@ import subprocess
 root = tk.Tk()
 apps = []
 
+
 def addApp():
+
 
     for widget in frame.winfo_children():
          widget.destroy() 
@@ -34,11 +36,11 @@ canvas.pack ()
 frame = tk.Frame(root, bg="white")
 frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
 
-openFile = tk.Button(root, text="Open File", padx= 10, 
+openFile = tk.Button(frame, text="Open File", padx= 10, 
                     pady=5, fg="black", bg="black", command=addApp)
 openFile.pack()
 
-runApps = tk.Button(root, text="Run Apps", padx= 10, 
+runApps = tk.Button(frame, text="Run Apps", padx= 10, 
                     pady=5, fg="black", bg="black", command=runApps)
 runApps.pack()
 
